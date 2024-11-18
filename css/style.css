@@ -60,9 +60,10 @@ section ul{
     
     
 }
-section ul li a{
+section.servico ul li a{
     background-color: #3B8686;
     padding: 10px;
+
     
     
 }
@@ -79,8 +80,80 @@ section h2{
     font-size: 1.4rem;
     padding: 15px 0;
 }
-section p{
-    padding: 15px 0;
-    padding-bottom: 40px;
+section.servico p{
+    
+    padding: 1.5vw 0 3vw 0;
     color: #747474
+}
+section.banner1{
+    padding: 2vw 0;
+    margin-top: 10vw;
+    background: linear-gradient(#79bd9a3b,rgba(121, 189, 154, 0.2)), url(../images/back-numeros.png) no-repeat center center;
+    background-size: cover;
+    
+}
+section.banner1 span{
+    color: white;
+}
+section.banner1 p{
+    color: white;
+    font-size: 1.5rem;
+    padding: 10px 0;
+
+
+}
+section.banner1 ul li p.grande{
+    font-size: 2rem;
+    font-weight: bold;
+}
+section.possibilidades{
+    display: flex;
+    
+    
+    padding: 10vw;
+}
+section.possibilidades p a{
+    background-color: #0B486B;
+    padding: 10px 25px;
+    margin-right: 2vw;
+    
+    
+}
+
+section.possibilidades h2{
+    font-size: 2.5vw;
+    padding-bottom: 3vw;
+    color: #0B486B;
+}
+#not{
+    padding: 1vw 0;
+    width: 60%;
+    padding-bottom: 5vw;
+
+}
+section.possibilidades img{
+    width: 40vw;
+}
+footer{
+    background-color: #3B8686;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 2vw;
+}
+footer div.so span{
+    font-size: 2vw;
+    padding: 0 10px;
+    padding-bottom: 20px;
+}
+footer div{
+    color: white;
+}
+footer div.espaco{
+    
+    text-align: right;
+    
+}
+footer p{
+    padding: 10px;
 }
